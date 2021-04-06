@@ -1,0 +1,19 @@
+.flex-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: inherit;
+}
+
+.form-container {
+  width: 400px;
+}
+
+.custom-btn {
+  width: 200px;
+  height: 40px;
+  color: #ffffff;
+  border-radius: 11px;
+}
