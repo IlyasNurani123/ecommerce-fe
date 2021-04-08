@@ -4,9 +4,7 @@ import Navbar from './navbar/Navbar';
 const NoSidebarLayout = (props) => {
   return (
     <>
-      <div>
-        <Navbar />
-      </div>
+      <Navbar />
       <div>{props.children}</div>
     </>
   );
